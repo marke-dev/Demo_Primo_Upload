@@ -1,0 +1,67 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="generator" content="Primo" />
+      <!-- HEAD_svelte-1fclmfs_START --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><style>@import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css");
+
+#page {
+  font-family: system-ui, sans-serif;
+  color: var(--color);
+  line-height: 1.6; 
+  font-size: 1rem;
+  background: var(--background);
+}
+
+.section-container {
+  max-width: var(--max-width, 1000px);
+  margin: 0 auto;
+  padding: 3rem var(--padding, 1rem); 
+}
+
+.heading {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0;
+}
+
+.button {
+  color: white;
+  background: var(--color-accent);
+  border-radius: 5px;
+  padding: 8px 20px;
+  transition: var(--transition);
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.button.inverted {
+    background: transparent; 
+    color: var(--color-accent); 
+    border: 2px solid var(--color-accent);
+  }
+</style><!-- HEAD_svelte-1fclmfs_END -->
+      <style></style>
+    </head>
+    <body id="page">
+       
+<div class="section" id="section-f97ccc76"><section class="py-5 min-vh-100 bg-primary"><div class="container py-5 d-flex justify-content-center align-items-center" style="min-height: inherit;"><h1 class="text-white display-1 fw-bolder">Hello</h1></div></section></div> 
+
+      <script type="module">
+      import('/_symbols/e5362184-ca29-40bd-970b-3ab99e6bc9ce.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-f97ccc76'),
+              hydrate: true,
+              props: {"title":"Hello"}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    </script>
+    </body>
+  </html>
+  
